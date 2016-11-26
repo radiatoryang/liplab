@@ -38,7 +38,7 @@ You can fine tune the timings on the timeline: drag the phonemes around, or left
 
 At the end, we spit out a JSON file that looks like this:
 
-<pre>lipsync : [
+<pre>"lipsync" : [
 	{
 		"filename":"male01/voiceover_test.wav"
 		"dictation":"test"
