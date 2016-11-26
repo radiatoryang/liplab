@@ -15,13 +15,13 @@ Sooo this doesn't actually exist yet. I've written out a spec that should theore
 
 3. TELL LIPLAB WHERE YOUR SOUNDS ARE. Point LipLab to the file folder where all your voiceover files are. LipLab will automatically crawl all subfolders and load the files into a list.
 
-4. CONFIGURE LIPLAB. Use simplified phoneme set (good for cartoony characters) or full phoneme set (good for realistic characters)? For batch processing, should it overwrite or preserve any existing data?
+4. CONFIGURE LIPLAB. Use simplified phoneme set (good for cartoony characters) or full phoneme set (good for realistic characters)? For batch processing, should it overwrite or preserve any existing data? For JSON export, what should the project path be, to relativize the filenames?
 
 5. PROCESS. You can click "Batch Process" to have LipLab automatically process every file, or manually select a file from the file list to process it individually. When you process a file, LipLab runs it through several passes (see "How It Works") to try to figure out how to pronounce it.
 
 6. CORRECT. Phoneme extraction is not perfect, you'll usually have to correct the phonemes and the timings. There's a 3D preview of a character who will use the work-in-progress data to lipsync to your audio; use the draggable timeline interface to change phoneme times / durations, or even manually input all the phonemes yourself!
 
-7. EXPORT DATA. LipLab will export a giant JSON file that contains all your lipsync and phoneme data for that entire folder.
+7. EXPORT DATA. LipLab will export a giant JSON file that contains all your lipsync and phoneme data for that entire folder. The filenames will be relative to the project path set in Step 4.
 
 8. IMPORT INTO AN INTEGRATION FOR YOUR GAME ENGINE. Your game engine needs to know how to parse the JSON and animate characters with the phoneme data. There's an integration for Unity included, but for other engines, it's up to you.
 
@@ -40,7 +40,7 @@ At the end, we spit out a JSON file that looks like this:
 
 <pre>"lipsync" : [
 	{
-		"filename":"male01/voiceover_test.wav"
+		"filename":"Assets/sounds/vo/male01/voiceover_test.wav"
 		"dictation":"test"
 		"phonemes":[
 			{
