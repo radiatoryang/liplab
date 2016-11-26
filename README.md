@@ -44,7 +44,7 @@ At the end, we spit out a JSON file that looks like this:
 		"dictation":"test"
 		"phonemes":[
 			{
-			"0.24-0.56":"T"
+			"0.24-0.56":"TE"
 			"0.56-1.21":"S"
 			"1.21-1.51":"T"
 			}
