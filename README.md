@@ -15,7 +15,7 @@ Sooo this doesn't actually exist yet. I've written out a spec that should theore
 
 3. TELL LIPLAB WHERE YOUR SOUNDS ARE. Point LipLab to the file folder where all your voiceover files are. LipLab will automatically crawl all subfolders and load the files into a list.
 
-4. CONFIGURE LIPLAB. Use simplified phoneme set (good for cartoony characters) or full phoneme set (good for realistic characters)?
+4. CONFIGURE LIPLAB. Use simplified phoneme set (good for cartoony characters) or full phoneme set (good for realistic characters)? For batch processing, should it overwrite or preserve any existing data?
 
 5. PROCESS. You can click "Batch Process" to have LipLab automatically process every file, or manually select a file from the file list to process it individually. When you process a file, LipLab runs it through several passes (see "How It Works") to try to figure out how to pronounce it.
 
