@@ -6,13 +6,13 @@ Free lip sync / automatic phoneme extraction tool for game developers. Currently
 
 Sooo this doesn't actually exist yet. I've written out a spec that should theoretically work. All the individual parts of the toolchain are there, it's just a matter of spending a good month trying to connect everything and making it usable / stable. I don't have a lot of time, to be honest, but eventually I want to build this out. 
 
-If someone else wants to implement my spec and stuff, I'd be grateful... whatever you do, it should NOT be a Unity Editor plug-in, but rather a standalone tool, so that anyone with any game engine could make use of it.
+If someone else wants to implement my spec and stuff, I'd be grateful... whatever you do, it should NOT be a Unity Editor plug-in, but rather a standalone tool, so that anyone with any game engine could make use of it. (If you decide to build this tool in Unity, make sure you build it out to 32-bit Windows... the Windows 10 Anniversary update breaks all 64 bit speech API stuff, apparently?)
 
 Workflow is conceptually based on Valve's FacePoser tool for Source 1. https://developer.valvesoftware.com/wiki/QuickStartLipSync
 
 ## QUICKSTART
 
-1. CONFIGURE WINDOWS. Enable Speech Recognition, and enable Stereo Mix and set it to primary microphone. This is so Windows will automatically try to listen to your computer's speaker audio. Make sure you crank the volume up too.
+1. CONFIGURE WINDOWS. Enable Speech Recognition (Settings > Privacy > Speech), and enable Stereo Mix and set it to primary microphone. This is so Windows will automatically try to listen to your computer's speaker audio. Make sure you crank the volume up too.
 
 2. START LIPLAB.
 
