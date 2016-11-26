@@ -4,8 +4,11 @@ Free lip sync / automatic phoneme extraction tool for game developers. Currently
 
 ## DEVELOPMENT NOTES: THIS DOESN'T ACTUALLY EXIST YET!
 
-Sooo this doesn't actually exist yet. I've written out a spec that should theoretically work. All the individual parts of the toolchain are there, it's just a matter of spending a good month trying to connect everything and making it usable / stable. I don't have a lot of time, to be honest, but eventually I want to build this out. If someone else wants to implement my spec and stuff, I'd be grateful... whatever you do, it should NOT be a Unity Editor plug-in, but rather a standalone tool, so that anyone with any game engine could make use of it.
+Sooo this doesn't actually exist yet. I've written out a spec that should theoretically work. All the individual parts of the toolchain are there, it's just a matter of spending a good month trying to connect everything and making it usable / stable. I don't have a lot of time, to be honest, but eventually I want to build this out. 
 
+If someone else wants to implement my spec and stuff, I'd be grateful... whatever you do, it should NOT be a Unity Editor plug-in, but rather a standalone tool, so that anyone with any game engine could make use of it.
+
+Workflow is conceptually based on Valve's FacePoser tool for Source 1. https://developer.valvesoftware.com/wiki/QuickStartLipSync
 
 ## QUICKSTART
 
